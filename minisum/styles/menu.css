@@ -1,0 +1,115 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.menu {
+  position: sticky;
+  right: 0;
+  width: 100%;
+}
+
+.stage {
+  background: #929292;
+  height: 100px;
+  width:auto;
+  position: relative;
+  display: flex;
+  border-bottom: 5px solid black;
+}
+.button:hover .gear {
+  animation: rotate 2s linear infinite;
+}
+.button2:hover .gear {
+  animation: rotate 2s linear infinite;
+}
+.button3:hover .gear {
+  animation: rotate 2s linear infinite;
+}
+.gear {
+  margin-top: 10px;
+  height: 80%;
+  align-self: center;
+  justify-self: center;
+
+}
+
+.button {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-left: 120px;
+}
+
+.button2 {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-left: 40px;
+}
+
+.button3 {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-left: 40px;
+}
+
+.textclass {
+  position: absolute;
+  bottom: 40px;
+  left: 35px;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-top: -100px;
+}
+
+.minisumo {
+  height: 100%;
+  margin-left: -10px;
+}
+
+.cool {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.adalt {
+  border: 2px solid;
+  border-radius: 50%;
+  background-color: rgb(134, 134, 134);
+  height: 40px;
+  width: 40px;
+  position: fixed;  
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.fletxa {
+  margin-top: 10px;
+}
+
